@@ -1,0 +1,38 @@
+/* Navbar.module.css */
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Distributes space between the logo and the nav items */
+    align-items: center; /* Aligns items vertically centered */
+    padding: 20px 20px,20px,20px; /* Optional: Adds some padding on the left and right */
+    background-color: #f8f8f8; /* Optional: Background color */
+    font-family: 'Markazi Text', serif;
+     font-size: x-large;
+    color: black;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 20px; 
+    list-style-type: none; 
+    margin: 10px; 
+    padding: 10px; 
+    flex-wrap: wrap;
+  }
+  
+
+  
+  .nav a {
+    text-decoration: none; /* Removes the underline from links */
+    color: #000000; /* Sets the text color */
+    padding: 10px 15px; /* Optional: Adds padding inside the links */
+    transition: color 0.3s ease; /* Optional: Adds a transition effect on hover */
+  }
+  
+  .nav a:hover {
+    color: #007BFF; /* Optional: Changes text color on hover */
+  }
+  
+  
