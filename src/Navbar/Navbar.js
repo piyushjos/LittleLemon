@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/Logo.svg";
-import styles from './Navbar.module.css'
+import styles from "./Navbar.module.css";
 
 const NavBar = () => {
   return (
@@ -8,26 +9,27 @@ const NavBar = () => {
         <Logo />
         <ul>
           <li>
-            <a href="/home">Homepage</a>
+            <Link to="/">Homepage</Link>
           </li>
           <li>
-            <a href="/about">About Us</a>
+            <Link to="/about">About Us</Link>
           </li>
           <li>
-            <a href="/menu">Blog</a>
+            <Link to="/menu">Blog</Link>
           </li>
           <li>
-            <a href="/reservation">orderonline</a>
+            <Link to="/orderonline">Order Online</Link>
           </li>
           <li>
-            <a href="/orderonline">reservation</a>
+            <Link to="/reservetable">Reservation</Link>
           </li>
           <li>
-            <a href="/login">login</a>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </nav>
     </>
   );
 };
+
 export default NavBar;

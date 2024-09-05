@@ -55,7 +55,7 @@ const Main = () => {
               <h2>Greek Salad</h2>
               <span class={styles.price}>$15.99</span>
             </div>
-            <p class={styles.carddescription}>
+            <p className={styles.carddescription}>
               This is a delicious dish made with fresh ingredients, cooked to
               perfection, and served with a side of your choice. It's the
               perfect meal for any occasion!
@@ -74,7 +74,7 @@ const Main = () => {
               <h2>Greek Salad</h2>
               <span class={styles.price}>$15.99</span>
             </div>
-            <p class={styles.carddescription}>
+            <p className={styles.carddescription}>
               This is a delicious dish made with fresh ingredients, cooked to
               perfection, and served with a side of your choice. It's the
               perfect meal for any occasion!
@@ -93,7 +93,7 @@ const Main = () => {
               <h2>Greek Salad</h2>
               <span class={styles.price}>$15.99</span>
             </div>
-            <p class={styles.carddescription}>
+            <p className={styles.carddescription}>
               This is a delicious dish made with fresh ingredients, cooked to
               perfection, and served with a side of your choice. It's the
               perfect meal for any occasion!
@@ -112,7 +112,7 @@ const Main = () => {
               <h2>Greek Salad</h2>
               <span class={styles.price}>$15.99</span>
             </div>
-            <p class={styles.carddescription}>
+            <p className={styles.carddescription}>
               This is a delicious dish made with fresh ingredients, cooked to
               perfection, and served with a side of your choice. It's the
               perfect meal for any occasion!
